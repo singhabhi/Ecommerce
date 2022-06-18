@@ -1,0 +1,12 @@
+.slider-Img{width: 100%; min-height: 50vh;}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 70%  70%;
+    background-color: #0e0143;
+    border-radius: 50px;
+    font-weight: bold;
+}

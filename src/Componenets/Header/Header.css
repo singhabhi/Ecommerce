@@ -1,0 +1,72 @@
+:root {
+    --gray: #707070;
+    --white: #ffffff;
+    --yellow: #fdb03d;
+    --font-color: #707070;
+    --border-color-light: #eee;
+    --bg-color: #fff;
+    --secondary-color: #292560;
+    --black: #000000;
+}
+body{background-color: var(--bg-color);}
+html{font-size: 14px;}
+.header-text-set li {display: inline; margin-left: 20px; font-size: 1.1rem;}
+.header-text-set{padding-left: 0rem;}
+.header-text-set li a{text-decoration: none; color: black; color:  var(--gray);}
+.header-title p{color:  var(--gray); font-size: 1rem;}
+.location-icon{font-size: 10px;}
+.header-text-set li a:hover{color: var(--yellow); transition: 0.5s all;}
+
+/* Header2 */
+
+.header2-title p{font-size: 2rem; font-weight: 500;}
+.header2-title-firt-char{font-size: 3rem; font-weight: bold; color: var(--yellow);}
+.header2-search-bar input{width: 85%; padding: 14px; outline: none; border-radius: 4px 0 0 4px; border: 1px solid var( --border-color-light); color: var(--font-color); font-weight: 400; background-color: var(--bg-color); height: auto;}
+.header2-search-bar ::placeholder{color: #70707082;}
+.header2-search-bar button{background-color: var(--yellow); text-align: center; padding: 15px 0px 14px 0px; width: 15%; border: none; border-radius: 0 4px 4px 0; font-weight: bold; color: var(--white);}
+.header2-text-set li {display: inline;  font-size: 1.1rem; }
+.header2-text-set{padding-left: 0rem;}
+.head2icons{margin-left: 28px;}
+
+
+/* Header3 */
+.Header3{background-color: var(--secondary-color); }
+.select-option select{width: 70%; outline: none; background-color: var(--secondary-color); color: var(--white); 
+    padding: 10px;}
+.select-option select option{background-color: var(--bg-color); color: var(--black);}
+.header3-text-set li {display: inline; margin-left: 30px; font-size: 1rem; color: var(--white); font-weight: 600;}
+.header3-text-set{padding: 10px; margin-bottom: 0rem; margin-left: 5%;}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  
+
+@media (max-width: 575.98px) { 
+    .header-title{text-align: center;} 
+ }
+
+ @media (min-width: 760px) { 
+    .header2-title p {font-size: 1.6rem;}
+    .head2icons{margin-left: 20px;}
+ }
+
+
+ 
+
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .header3-text-set li { margin-left: 15px; font-size: 0.9rem; }
+ }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    .header3-text-set li {display: inline; margin-left: 30px; font-size: 1rem; color: var(--white); font-weight: 600;}
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }

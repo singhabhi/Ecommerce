@@ -1,0 +1,8 @@
+.electronics{background-color: var(--bg-color)}
+.electronics-content  .electronics-text{font-size: 1.8rem; font-weight: bold;}
+.electronics-text2{color: var(--font-color); font-size: 1.1rem;}
+/* .electronics-section ul li{display: inline; font-size: 1.5rem; font-weight: bold;}
+.Electronics-section-icon{color: var(--yellow); margin-left: -15px; align-items: center;} */
+.icon-fot{color: var(--yellow);}
+.text-form-electronics h3{font-weight: 700; font-size: 1.5rem;}
+.text-form-electronics p{font-size: 1rem; color: var(--font-color);}

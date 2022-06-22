@@ -3,6 +3,7 @@ import StarIcon from '@mui/icons-material/Star';
 import StarHalfIcon from '@mui/icons-material/StarHalf';
 import { BoxCart } from './BoxCart';
 import img from '../../img';
+import { moveimg } from '../../img';
 import './Filter.css'
 
 
@@ -213,6 +214,86 @@ export const Filter = () => {
                                 </ul>
                                </div>
                              </div>
+
+                             <div className="row">
+                              <div className="col-12">
+                                <div className="">
+                                <h5 className='mb-4 fw-bold'>BEST SELLER</h5>
+                                </div>
+                              </div>
+
+                              <div className="main-div-move">
+                              <div className="div-move">
+                                <div className="row">
+                                 <div className="col-12">
+                                  <div className="mb-4 mt-2">
+                                    <div className="row">
+
+                                      <div className="col-4">
+                                        <div className="">
+                                          <img src={moveimg.K1} alt="" />
+                                        </div>
+                                     </div>
+
+                                      <div className="col-8">
+                                          <div className="">
+                                            <p>Samsung Galaxy F62 (Laser Grey, 128 GB) (6 GB RAM)</p>
+                                            <h6>$12,990.00</h6>
+                                          </div>
+                                      </div>
+
+                                    </div>
+                                  </div>
+
+                                  <div className="mb-4">
+                                    <div className="row">
+
+                                      <div className="col-4">
+                                        <div className="">
+                                          <img src={moveimg.K2} alt="" />
+                                        </div>
+                                     </div>
+
+                                      <div className="col-8">
+                                          <div className="">
+                                            <p>Samsung 192 L Direct Cool Single Door 3 Star (2021) Refrigerator</p>
+                                            <h6>$12,499.00</h6>
+                                          </div>
+                                      </div>
+
+                                    </div>
+                                  </div>
+
+                                  <div className="mb-4">
+                                    <div className="row">
+
+                                      <div className="col-4">
+                                        <div className="">
+                                          <img src={moveimg.K3} alt="" />
+                                        </div>
+                                     </div>
+
+                                      <div className="col-8">
+                                          <div className="">
+                                            <p>boAt Rockerz 450 Bluetooth Headset (Luscious Black, On the)</p>
+                                            <h6>$1,199.00 </h6>
+                                          </div>
+                                      </div>
+
+                                    </div>
+                                  </div>
+
+                                 </div>
+
+                                  
+
+                                </div>
+                              </div>
+                              </div>
+
+                             </div>
+                           
+
                              </div>
                             </div>
 

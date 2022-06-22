@@ -7,7 +7,9 @@ import BedtimeIcon from '@mui/icons-material/Bedtime';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+
 import './Header.css'
+import { city } from '../../img';
 
 // window.onscroll = function() {myFunction()};
 
@@ -21,6 +23,9 @@ import './Header.css'
 //   }
 // }
 
+
+// const unique = [...new Set(city.map(item => item.state))];
+// console.log(unique);
 
 export const Header = () => {
     const mystyle = {
@@ -61,23 +66,43 @@ export const Header = () => {
    
 
  {/* Modal */}
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content">
+    <div class="modal-content py-4">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="text-center" id=""><LocationOnIcon style={mystyle} /> Please Select Your Location</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+      <select name="city" id="city" className='py-3'>
+      <option value="volvo">Select City</option>
+      
+      {
+        
+        city.map((citydata,index) =>{
+      
+         if(index<=100)
+         {
+          return(
+            
+            <option value="volvo">{citydata.city}</option>
+          
+      
+          );
+          
+         }
+        
+        })
+      }
+      </select>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+     
     </div>
   </div>
 </div>
+
+
+
     </>
   )
 }

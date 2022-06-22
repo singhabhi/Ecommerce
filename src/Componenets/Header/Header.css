@@ -16,7 +16,8 @@ html{font-size: 14px;}
 .header-title p{color:  var(--gray); font-size: 1rem;}
 .location-icon{font-size: 10px;}
 .header-text-set li a:hover{color: var(--yellow); transition: 0.5s all;}
-
+/* .modal-body{width: 100%!important;} */
+.modal-body #city{width: 100%!important; outline: none; background-color: #f4f4f4; border: 1px solid #eee;}
 /* Header2 */
 
 .header2-title p{font-size: 2rem; font-weight: 500;}

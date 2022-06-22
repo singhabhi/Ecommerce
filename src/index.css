@@ -8,6 +8,8 @@
   --secondary-color: #292560;
   --black: #000000;
    --bg-light: #fafafa;
+   --input-color: #f4f4f4;
+   --border-input: #eee;
 }
 *{
   margin: 0px;

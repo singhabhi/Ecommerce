@@ -16,8 +16,18 @@ html{font-size: 14px;}
 .header-title p{color:  var(--gray); font-size: 1rem;}
 .location-icon{font-size: 10px;}
 .header-text-set li a:hover{color: var(--yellow); transition: 0.5s all;}
-/* .modal-body{width: 100%!important;} */
-.modal-body #city{width: 100%!important; outline: none; background-color: #f4f4f4; border: 1px solid #eee;}
+.modal-body #city{width: 100%!important; outline: none; background-color: var(--input-color); border: 1px solid var(--border-input);}
+.loginform input{background-color: var(--input-color); outline: none; border: 1px solid var(--border-input); width: 100%; padding: 12px; border-radius: 3px;}
+.loginform a{width: 100%; background-color: var(--yellow); border-color: var(--yellow);padding: 12px;}
+.loginform a:hover{background-color: var(--secondary-color); border-color: var(--secondary-color);transition: 0.5s all; }
+ .modal-body{padding: 30px;}
+ .check-box-for input{padding: 30px;}
+ .check-box-for span{font-size: 1.1rem; margin-left: 8px; color: var(--font-color);}
+.loginform p{font-size: 1.2rem; color: var(--font-color);}
+.loginform p span:hover{color: var(--yellow); transition: 0.7s all;} 
+.modal-content {border-radius: 0.5rem;}
+
+.modal-header {  border: none;}
 /* Header2 */
 
 .header2-title p{font-size: 2rem; font-weight: 500;}

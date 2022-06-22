@@ -7,7 +7,9 @@ import BedtimeIcon from '@mui/icons-material/Bedtime';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import GoogleIcon from '@mui/icons-material/Google';
 import './Header.css'
 import { city } from '../../img';
 
@@ -27,8 +29,15 @@ import { city } from '../../img';
 // const unique = [...new Set(city.map(item => item.state))];
 // console.log(unique);
 
+
+
 export const Header = () => {
-    const mystyle = {
+  
+  
+
+
+
+  const mystyle = {
         fontSize: "17px",
         marginTop: "-1px"
       };
@@ -50,8 +59,8 @@ export const Header = () => {
                                 <div className=''>
                                  <ul className='header-text-set mb-0'>
                                    <li className='' ><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" ><LocationOnIcon style={mystyle} />Select Location</a></li>
-                                   <li><a href="#"><LoginIcon style={mystyle} /> Log In</a></li>
-                                   <li><a href="#"><ExitToAppIcon style={mystyle} /> Register</a></li>
+                                   <li ><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2"><LoginIcon style={mystyle} /> Log In</a></li>
+                                   <li><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal3"><ExitToAppIcon style={mystyle} /> Register</a></li>
                                  </ul> 
                                 </div>
                             </div>
@@ -95,6 +104,101 @@ export const Header = () => {
         })
       }
       </select>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+
+
+
+{/* model2 */}
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title h3 fw-bold" id="exampleModalLabel">Log In</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <div className="loginform mb-3">
+         <input type="text" placeholder='Username' />
+       </div>
+       <div className="loginform mb-4 pb-2">
+         <input type="password" placeholder='Password' />
+       </div>
+       <div className="loginform mb-4">
+         <a class="btn btn-primary" id='btn-color-change' href="#" role="button"  >Log in</a>
+       </div>
+       <div className="mb-4 check-box-for">
+         <input type="checkbox" /> <span>Remember me?</span>
+       </div>
+       <div className="text-center loginform mb-4">
+        <p>Don't have an account? <span>Register Now</span></p>
+       
+       </div>
+       <div className="text-center social-media-icon2">
+       <p>(Or)</p>
+        
+       <div className="social-media-icon">
+          
+              <ul className='footer-icon'>
+                <li className='bg-blue'><FacebookIcon /></li>
+                <li className='bg-light-blue '><TwitterIcon /></li>
+               <li className='bg-orange'><GoogleIcon /></li>
+             </ul>
+        </div>
+       </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+
+{/* model3 */}
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title h3 fw-bold" id="exampleModalLabel">Log In</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <div className="loginform mb-3">
+         <input type="text" placeholder='Username' />
+       </div>
+       <div className="loginform mb-4 pb-2">
+         <input type="email" placeholder='Email' />
+       </div>
+       <div className="loginform mb-4 pb-2">
+         <input type="password" placeholder='Password'/>
+       </div>
+       <div className="loginform mb-4 pb-2">
+         <input type="password" placeholder='Confirm Password'/>
+       </div>
+       <div className="loginform mb-4">
+         <a class="btn btn-primary" id='btn-color-change' href="#" role="button"  >Register</a>
+       </div>
+       <div className="mb-4 check-box-for">
+         <input type="checkbox" /> <span>I Accept to the Terms & Conditions</span>
+       </div>
+      
+       <div className="text-center social-media-icon2">
+       <p>(Or)</p>
+        
+       <div className="social-media-icon">
+          
+              <ul className='footer-icon'>
+                <li className='bg-blue'><FacebookIcon /></li>
+                <li className='bg-light-blue '><TwitterIcon /></li>
+               <li className='bg-orange'><GoogleIcon /></li>
+             </ul>
+        </div>
+       </div>
       </div>
      
     </div>

@@ -20,6 +20,16 @@ export default
    }
 
 
+   export const aboutimg={
+     
+      aboutimg1: process.env.PUBLIC_URL + '/image/about.jpg',
+      aboutimg2: process.env.PUBLIC_URL + '/image/about2.png',
+      aboutimg3: process.env.PUBLIC_URL + '/image/bg1.jpg',
+      person1: process.env.PUBLIC_URL + '/image/testi2.jpg',
+      person2: process.env.PUBLIC_URL + '/image/testi1.jpg',
+      person3: process.env.PUBLIC_URL + '/image/testi3.jpg',
+   }
+
    export const moveimg= 
    {
       K1: process.env.PUBLIC_URL + '/image/k1.png',

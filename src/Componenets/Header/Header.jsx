@@ -11,6 +11,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GoogleIcon from '@mui/icons-material/Google';
 import './Header.css'
+import { NavLink } from "react-router-dom";
 import { city } from '../../img';
 
 // window.onscroll = function() {myFunction()};
@@ -164,17 +165,17 @@ export const Header = () => {
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title h3 fw-bold" id="exampleModalLabel">Log In</h5>
+        <h5 class="modal-title h3 fw-bold" id="exampleModalLabel">Register</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
        <div className="loginform mb-3">
          <input type="text" placeholder='Username' />
        </div>
-       <div className="loginform mb-4 pb-2">
+       <div className="loginform mb-3 ">
          <input type="email" placeholder='Email' />
        </div>
-       <div className="loginform mb-4 pb-2">
+       <div className="loginform mb-3">
          <input type="password" placeholder='Password'/>
        </div>
        <div className="loginform mb-4 pb-2">
@@ -293,10 +294,10 @@ export const Header3 = () => {
                                   <div className="col-lg-9 d-none d-lg-block">
                                     <div className="">
                                         <ul className="header3-text-set  ">
-                                            <li>HOME</li>
+                                           <li>  <NavLink to='/' activeClassName='active' className="manu-activ-link" exact >HOME</NavLink></li>
                                             <li>ELECTRONICS <ArrowDropDownIcon/></li>
                                             <li>APPLIANCES <ArrowDropDownIcon/></li>
-                                            <li>ABOUT US</li>
+                                           <li>  <NavLink to='/About' activeClassName='active' className="manu-activ-link" exact >ABOUT US</NavLink></li>
                                             <li>NEW ARRIVALS</li>
                                             <li>PAGES <ArrowDropDownIcon/></li>
                                             <li>CONTACT US</li>

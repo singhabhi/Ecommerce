@@ -7,17 +7,20 @@ import { App } from './App';
 import { MainHeader } from './Componenets/Header/MainHeader';
 import { MainFooter } from './Componenets/Footer/MainFooter';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
 
 root.render(
-  <React.StrictMode>
-  <MainHeader/>
-   <App/>
-   <MainFooter/>
-  </React.StrictMode>
+  <BrowserRouter>
+    <React.StrictMode>
+      <MainHeader/>
+      <App/>
+      <MainFooter/>
+   </React.StrictMode>
+  </BrowserRouter>
 );
 
 

@@ -5,20 +5,14 @@ import { ProductType } from './Componenets/Product-Type/ProductType'
 import { Filter } from './Componenets/Product/Filter'
 import { Product } from './Componenets/Product/Product'
 import { Silder } from './Componenets/Slider/Silder'
+import { AboutMain } from './Componenets/About/AboutMain'
+import { Rout } from './Componenets/Routing/Rout'
 
 
 export const App = () => {
   return (
     <>
-     
-        {/* <Product/> */}
-        <Silder/>
-        <Filter/>
-        <ProductType/>
-        <Electronics/>
-       
-       
-
+     <Rout/>
     </>
   )
 }

@@ -40,6 +40,7 @@ html{font-size: 14px;}
 .head2icons{margin-left: 28px;}
 
 
+
 /* Header3 */
 .Header3{background-color: var(--secondary-color); }
 .select-option select{width: 70%; outline: none; background-color: var(--secondary-color); color: var(--white); 
@@ -53,7 +54,11 @@ html{font-size: 14px;}
     top: 0;
     width: 100%;
   }
-  
+  a.active{color: var(--yellow);
+   text-decoration: none;
+}
+.manu-activ-link{color: white; text-decoration: none;}
+.manu-activ-link:hover{color: var(--yellow); transition: 0.5s;}
   
 
 @media (max-width: 575.98px) { 

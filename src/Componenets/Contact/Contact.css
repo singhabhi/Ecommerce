@@ -1,0 +1,8 @@
+.contact-icon{color: var(--yellow);}
+.contact-text .subtext{color: var(--font-color); font-size: 1.2rem;}
+.contact-form-input input{width: 100%;  border: 1px solid var(--border-color-light);
+ outline-color: var(--yellow); padding: 15px; border-radius: 3px; margin-bottom: 15px;}
+ .contact-form-input textarea{width: 100%; border: 1px solid var(--border-color-light); outline-color: var(--yellow); padding: 10px 10px 80px 10px; border-radius: 3px;}
+ .contact-form-btn a{background-color: var(--yellow); padding: 15px 30px 15px 30px; border-radius: 4px; text-decoration: none; color: var(--white);}
+ .contact-form-btn a:hover{background-color: var(--secondary-color); transition: 0.5s;}
+ .contact-form{padding: 100px 0px 100px 0px; border-bottom: 1px solid black;}

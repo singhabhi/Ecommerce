@@ -294,13 +294,13 @@ export const Header3 = () => {
                                   <div className="col-lg-9 d-none d-lg-block">
                                     <div className="">
                                         <ul className="header3-text-set  ">
-                                           <li>  <NavLink to='/' activeClassName='active' className="manu-activ-link" exact >HOME</NavLink></li>
+                                           <li><NavLink to='/' activeClassName='active' className="manu-activ-link" exact >HOME</NavLink></li>
                                             <li>ELECTRONICS <ArrowDropDownIcon/></li>
                                             <li>APPLIANCES <ArrowDropDownIcon/></li>
-                                           <li>  <NavLink to='/About' activeClassName='active' className="manu-activ-link" exact >ABOUT US</NavLink></li>
+                                           <li><NavLink to='/About' activeClassName='active' className="manu-activ-link" exact >ABOUT US</NavLink></li>
                                             <li>NEW ARRIVALS</li>
                                             <li>PAGES <ArrowDropDownIcon/></li>
-                                            <li>CONTACT US</li>
+                                            <li><NavLink to='/contact' activeClassName='active' className="manu-activ-link" exact >CONTACT US</NavLink></li>
                                         </ul>
                                     </div>
                                   </div>

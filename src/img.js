@@ -30,6 +30,11 @@ export default
       person3: process.env.PUBLIC_URL + '/image/testi3.jpg',
    }
 
+   export const contactimg={
+      
+      contactimg1: process.env.PUBLIC_URL + '/image/contact.jpg',
+   }
+
    export const moveimg= 
    {
       K1: process.env.PUBLIC_URL + '/image/k1.png',

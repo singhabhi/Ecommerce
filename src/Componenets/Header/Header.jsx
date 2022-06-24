@@ -275,7 +275,7 @@ export const Header3 = () => {
                       <div className="col-lg-12 col-xl-11 offset-xl-1">
                           <div className="">
                               <div className="row">
-                                  <div className="col-md-4 col-lg-3 col-8 ">
+                                  <div className="col-md-4 col-lg-3 col-8 d-lg-block d-none">
                                     <div className='select-option '>
                                        <select id="agileinfo-nav_search" name="agileinfo_search" required="">
                                             <option value="">All Categories</option>
@@ -291,15 +291,15 @@ export const Header3 = () => {
 					                           	</select>
                                     </div>
                                   </div>
-                                  <div className="col-lg-9 d-none d-lg-block">
+                                  <div className="col-lg-9  d-lg-block">
                                     <div className="">
                                         <ul className="header3-text-set  ">
                                            <li><NavLink to='/' activeClassName='active' className="manu-activ-link" exact >HOME</NavLink></li>
-                                            <li>ELECTRONICS <ArrowDropDownIcon/></li>
-                                            <li>APPLIANCES <ArrowDropDownIcon/></li>
+                                            <li className='d-none'>ELECTRONICS <ArrowDropDownIcon/></li>
+                                            <li className='d-none'>APPLIANCES <ArrowDropDownIcon/></li>
                                            <li><NavLink to='/About' activeClassName='active' className="manu-activ-link" exact >ABOUT US</NavLink></li>
-                                            <li>NEW ARRIVALS</li>
-                                            <li>PAGES <ArrowDropDownIcon/></li>
+                                            <li className='d-none'>NEW ARRIVALS</li>
+                                            <li className='d-none'>PAGES <ArrowDropDownIcon/></li>
                                             <li><NavLink to='/contact' activeClassName='active' className="manu-activ-link" exact >CONTACT US</NavLink></li>
                                         </ul>
                                     </div>

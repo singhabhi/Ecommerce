@@ -294,7 +294,7 @@ export const Header3 = () => {
                                   <div className="col-lg-9  d-lg-block">
                                     <div className="">
                                         <ul className="header3-text-set  ">
-                                           <li><NavLink to='/' activeClassName='active' className="manu-activ-link" exact >HOME</NavLink></li>
+                                           <li><NavLink to='/Ecommerce' activeClassName='active' className="manu-activ-link" exact >HOME</NavLink></li>
                                             <li className='d-none'>ELECTRONICS <ArrowDropDownIcon/></li>
                                             <li className='d-none'>APPLIANCES <ArrowDropDownIcon/></li>
                                            <li><NavLink to='/About' activeClassName='active' className="manu-activ-link" exact >ABOUT US</NavLink></li>

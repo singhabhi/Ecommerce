@@ -11,7 +11,7 @@ export const Rout = () => {
            
      <main>
             <Routes>
-               <Route path="/" element={<Home/>} exact />
+               <Route path="/Ecommerce" element={<Home/>} exact />
                <Route path="/about" element={<AboutMain/>} exact/>
                <Route path="/contact" element={<MainContact/>} exact/>
             </Routes>        
